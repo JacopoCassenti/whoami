@@ -4,17 +4,31 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Jacopo Cassenti - Resume</title>
+
   <style>
     
     :root {
       --primary: #2b2d42;
       --accent: #697282;
-      --highlight: #ef233c;
+      --highlight: steelblue;
       --white: #ffffff;
     }
 
+    @font-face {
+      font-family: 'Roboto';
+      src: url(fonts/Roboto-VariableFont_wdth,wght.ttf) format('truetype');
+      font-weight: 100 1000;
+    }
+
+    @font-face {
+      font-family: 'Roboto';
+      src: url(fonts/Roboto-Italic-VariableFont_wdth,wght.ttf) format('truetype');
+      font-style: italic;
+      font-weight: 100 1000;
+    }
+
     body {
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      font-family: Roboto, Tahoma, Geneva, Verdana, sans-serif;
       background: var(--background);
       margin: 0;
       padding: 2rem;
@@ -54,6 +68,9 @@
       color: var(--primary);
     }
 
+    .sub-contact {
+      margin: 0.75rem 0px;
+    }
     .list {
       padding-left: 1.2rem;
     }
@@ -75,16 +92,18 @@
       <h1>Jacopo Cassenti</h1>
       <div class="subtext">Mathematics MSc (Cum Laude) | Future Data Scientist | Driven by curiosity, passionate about AI</div>
       <div class="contact">
-        <p>LinkedIn: <a href="https://www.linkedin.com/in/jacopocassenti" target="_blank">linkedin.com/in/jacopocassenti</a></p>
+        <p class="sub-contact">LinkedIn: <a href="https://www.linkedin.com/in/jacopocassenti" target="_blank">linkedin.com/in/jacopocassenti</a></p>
       </div>
     </header>
 
     <section class="section">
       <h2>Summary</h2>
-      <p>I am a MSc graduate in Applied Mathematics with a strong focus on Statistics, Data Analysis and Artifical Intelligence. After my graduation (cum laude), I won a research fellowship at <i>Università degli Studi di Pavia</i>, where I worked in creating Deep Learning models to predict extreme events in time series analysis.
-        <br>
-      I have a strong proficiency in Python, as well as basic knowledge in SQL and visualization tools like Power BI.
-        <br>
+      <p>I am a MSc graduate in Applied Mathematics with a strong focus on Statistics, Data Analysis and Artifical Intelligence.
+      <br>
+      After my graduation (cum laude), I won a research fellowship at <i>Università degli Studi di Pavia</i>, where I worked in creating Deep Learning models to predict extreme events in time series analysis.      
+      </p>
+      <p>
+        I have a strong proficiency in Python, as well as basic knowledge in SQL and visualization tools like Power BI.
       In the last year I worked as a high school Mathematics and Physics teacher, where I sharpened my communication, organization and problem solving skills.
 
       I am currently seeking for an entry level position in the data analysis field, looking forward to purse a carrer in more senior roles.</p>
@@ -102,8 +121,8 @@ Time Series in the Hydrological Field Using Deep Learning Techniques" - Universi
       </ul>
 
 
-      <p class="role-title">Mathematics Teacher - IIS L. G. Faravelli</p>
-      <p class="subtext">September 2024 - June 2025, Italy</p>
+      <p class="role-title">Mathematics & Physics Teacher - IIS L. G. Faravelli</p>
+      <p class="subtext">September 2024 - June 2025</p>
       <ul class="list">
         <li>Taught math across different levels, adapting lessons to student needs and learning speeds</li>
         <li>Designed engaging, problem-solving based lessons to keep math (relatively) fun</li>
